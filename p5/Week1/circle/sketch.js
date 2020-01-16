@@ -1,10 +1,10 @@
 function setup() {
   // put setup code here
-  createCanvas(500, 500);
+  createCanvas(1400, 700);
 }
 
 function draw() {
   // put drawing code here
-
-  ellipse(mouseX, mouseY, 10, 10) ;
+fill('magenta')
+  ellipse(mouseX, mouseY, 25, 25) ;
 }
