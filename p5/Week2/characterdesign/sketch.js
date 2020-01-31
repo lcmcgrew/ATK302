@@ -3,7 +3,11 @@ function setup() {
 }
 
 function draw() {
-background(125, 199, 245);
+  if (mouseIsPressed) {
+    background("black");
+  } else {
+    background(125, 199, 245);
+  }
 //ground//
 fill("green");
 rect(0,892,1500,150)
@@ -21,10 +25,10 @@ fill("white");
   ellipse(700,550,225,275);
 //head//
 fill("white");
-  ellipse(700,350,175,200)
+  ellipse(700,350,175,200);
 //nose//
 fill("pink")
-  triangle(687,341,697,352,707,341)
+  triangle(687,341,697,352,707,341);
 //left ear//
 fill("white");
   ellipse(638,249,50,45);
