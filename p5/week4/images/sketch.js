@@ -36,5 +36,5 @@ function mouseClicked() {
 }
 
 function doubleClicked() {
-  song1.stop()
+  song1.pause()
 }
