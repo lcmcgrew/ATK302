@@ -13,7 +13,7 @@ fill("green");
 rect(0,892,1500,150)
 //cordinate command//
 //fill("white");//
-//  text(mouseX + "," + mouseY,100,200);//
+//text(mouseX + "," + mouseY,100,200);//
 //left leg//
 fill("white");
   ellipse(650,765,65,250);
