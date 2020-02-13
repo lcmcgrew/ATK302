@@ -38,3 +38,8 @@ function mouseClicked() {
 function doubleClicked() {
   song1.pause()
 }
+//I could also use
+//function mouseReleased(){
+//if (song1.isPlaying())
+//else (so)
+}
