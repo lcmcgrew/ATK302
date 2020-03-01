@@ -2,15 +2,10 @@ var song1, song2, song3;
 var myState = 0;
 
 function preLoad() {
-  song1 = loadSound("assests/donkey.mp3");
-  song2 = loadSound("assests/skate.mp3");
-  song3 = loadSound("assests/thrill.mp3");
-}
+  song1 = loadSound("assets/love.mp3");
+  song2 = loadSound("assets/snow.mp3");
+  song3 = loadSound("assets/ocean.mp3");
 
-function setup() {
-  // put setup code here
-  creatCanvas(720, 200);
-  background(255, 0, 0);
   song1.loop();
   song1.stop();
   song2.loop();
@@ -19,8 +14,15 @@ function setup() {
   song3.stop();
 }
 
+function setup() {
+  // put setup code here
+  creatCanvas(720, 200);
+
+}
+
 function draw() {
   // put drawing code here
+  background("pink")
   switch (myState) {
     case 0:
       song1.play();
