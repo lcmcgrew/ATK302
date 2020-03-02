@@ -51,11 +51,13 @@ function draw() {
 }
 
 function mouseReleased() {
-  song1.paused();
-  song2.paused();
-  song3.paused();
 
-  myState++;
+myState++;
+
+  song1.pause();
+  song2.pause();
+  song3.pause();
+
   if (myState > 5) {
     myState = 0;
   }
